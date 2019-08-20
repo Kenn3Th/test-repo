@@ -12,6 +12,10 @@ def Hilsen(hvem):
 r = requests.get("https://snl.no")
 print(r.status_code)
 
+a = 0
+for i in range(10):
+    a = a + i
+
 """
 Code-runner er en ekstention som kun har "read only - output"
 For å kunne bruke input må man kjøre koden i terminalen. 
