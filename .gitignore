@@ -1,0 +1,6 @@
+venv
+.vscode
+
+"""
+Dette er en fil som gjemmer filer som vises i github
+"""
